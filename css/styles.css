@@ -12,8 +12,13 @@ h4 {
   font-weight: lighter;
 }
 
+.card img {
+  float: left;
+  margin: 10px;
+}
+
 .card-image {
-  height: 100%;
+  width: 40%;
 }
 
 .card-title {
@@ -46,8 +51,23 @@ padding: 20px;
 .article-tag-sm {
   color: gray;
   font-size: .9em;
+  font-weight: lighter;
 }
 
 .material-icons {
   font-size: 1rem;
+}
+
+@media screen and (min-width: 740px) {
+  .card-image {
+    width: 100%;
+  }
+
+  .card-title {
+    margin-top: 30%;
+  }
+
+  #card-title {
+    width: 60%;
+  }
 }
