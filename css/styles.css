@@ -3,13 +3,28 @@ body {
   background: #eeeeee;
 }
 
+.not-container {
+  padding: 15px;
+}
+
 img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
+.header {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h4 {
-  font-weight: lighter;
+  font-weight: 250;
+  margin-bottom: 50px;
+  font-size: 1.9rem;
+}
+
+#desktop {
+  display: none;
 }
 
 .card img {
@@ -23,7 +38,7 @@ h4 {
 
 .card-title {
   color: white;
-  margin-top: 50%;
+  margin-top: 20%;
 }
 
 #card-title {
@@ -58,16 +73,56 @@ padding: 20px;
   font-size: 1rem;
 }
 
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 600px) {
   .card-image {
     width: 100%;
+    margin: 0 0 0 -10px;
   }
 
   .card-title {
-    margin-top: 30%;
+    margin-top: 25%;
+    font-weight: lighter;
   }
 
   #card-title {
     width: 60%;
   }
+  .card-content {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .content-text {
+    margin: 240px 10px 20px;
+  }
+
+}
+
+@media screen and (min-width:1020px) {
+  body {
+    /*padding: -90px;*/
+  }
+
+  #header {
+    display: none;
+  }
+
+  #desktop {
+    display: block;
+    /*margin-bottom: 35px;*/
+  }
+
+  #card-title {
+    width: 80%;
+  }
+
+  .content-text {
+    margin: 20% 0 0 0;
+    font-size: .9rem;
+  }
+
+  .article-tag-sm {
+    font-size: .7rem;
+  }
+
 }
