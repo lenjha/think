@@ -1,7 +1,53 @@
-.img-goes-here {
-  width: 80px;
-  height: 60px;
-  background: gray;
-  float: left;
-  margin: -10px 10px 0 -10px;
+body {
+  font-size: 1rem;
+  background: #eeeeee;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h4 {
+  font-weight: lighter;
+}
+
+.card-image {
+  height: 100%;
+}
+
+.card-title {
+  color: white;
+  margin-top: 50%;
+}
+
+#card-title {
+  font-size: 1.3rem;
+}
+
+.small {
+padding: 20px;
+}
+
+.holiday {
+  background-image: url(../img/shopper.jpg);
+  background-repeat: no-repeat;
+}
+
+.season {
+  background-image: url(../img/shopping.jpg);
+  background-repeat: no-repeat;
+}
+
+#article-tag {
+  font-size: 1rem;
+}
+
+.article-tag-sm {
+  color: gray;
+  font-size: .9em;
+}
+
+.material-icons {
+  font-size: 1rem;
 }
