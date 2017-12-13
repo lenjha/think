@@ -34,6 +34,7 @@ h4 {
 
 .card-image {
   width: 40%;
+  max-height: 90%;
 }
 
 .card-title {
@@ -45,7 +46,7 @@ h4 {
   font-size: 1.3rem;
 }
 
-.card.medium {
+.card.small {
   padding: 20px;
   height: 100%;
 }
@@ -132,12 +133,6 @@ h4 {
 
 @media screen and (min-width:1020px) {
   .not-container {
-    max-width: 1000px;
+    max-width: 1600px;
   }
-
-  .row {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
 }
